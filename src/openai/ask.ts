@@ -1,7 +1,7 @@
 import { Configuration, OpenAIApi } from "openai"
 import { utils } from "./utils"
 
-class ChatGPT {
+export class ChatGPT {
     configuration: Configuration
     openAi: OpenAIApi
 
@@ -39,5 +39,3 @@ class ChatGPT {
         }
     }
 }
-
-export const chatGPT = new ChatGPT()
